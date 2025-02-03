@@ -54,7 +54,7 @@ section p{
     font-size: 3.5vw;
 }
 
-#p1{
+#imagem1{
     background-image: url(imagens/background001.jpg);
     background-position: right top;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ section p{
     background-attachment: fixed;
 }
 
-#p1 p{
+#imagem1 p{
     background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     padding: 20px;
@@ -70,7 +70,18 @@ section p{
     border-radius: 10px;
 }
 
-#p2{
+.duplo-paragrafo{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.duplo-paragrafo p{
+    margin-top: 0px;
+    margin-bottom: 70px;
+    
+}
+
+#imagem2{
     background-image: url(imagens/background002.jpg);
     background-position: right top;
     background-repeat: no-repeat;
@@ -78,7 +89,7 @@ section p{
     background-attachment: fixed;
 }
 
-#p2 p{
+#imagem2 p{
     background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     padding: 20px;
