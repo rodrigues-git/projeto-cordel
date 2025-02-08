@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 :root{
-    --font-titulo: 'Passion One', sans-serif;
-    --font-autor: Verdana, sans-serif;
-    --font-texto: 'Sriracha', sans-serif;
+    --font-titulo:  'Passion One', cursive;
+    --font-autor: Verdana, Tahoma, sans-serif;
+    --font-texto: 'Sriracha', cursive;
 }
 
 *{
@@ -19,81 +19,68 @@ header{
     background-color: black;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    color: white;
 }
 
 header h1{
     font-family: var(--font-titulo);
     font-variant: small-caps;
-    color: white;
     font-size: 10vw; 
 }
 
 header p{
     font-family: var(--font-autor);
-    color: white;
 }
 
-header a{
+header a, footer a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
 section{
-    border: 1px black solid;
-}
-
-section p{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     font-family: var(--font-texto);
-    margin: 120px 0px 120px 25px;
     font-size: 3.5vw;
 }
 
+section p{
+    padding-bottom: 2em;
+}
+
+
 #imagem1{
     background-image: url(imagens/background001.jpg);
-    background-position: right top;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-#imagem1 p{
-    background-color: rgba(0, 0, 0, 0.514);
-    display: inline-block;
-    padding: 20px;
-    color: white;
-    border-radius: 10px;
-}
-
-.duplo-paragrafo{
-    padding-top: 120px;
-}
-
-.duplo-paragrafo p{
-    margin-top: 0px;
-    margin-bottom: 70px;
-    
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0, 0.473);
 }
 
 #imagem2{
     background-image: url(imagens/background002.jpg);
-    background-position: right top;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
-#imagem2 p{
+.imagem-p{
     background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     padding: 20px;
     color: white;
     border-radius: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 
 footer{
@@ -104,14 +91,5 @@ footer{
     font-family: var(--font-autor);
 }
 
-footer a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-footer a:hover{
-    text-decoration: underline;
-}
 
 
